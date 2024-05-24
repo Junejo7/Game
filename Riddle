@@ -1,0 +1,15 @@
+def riddle_game():
+    print("Welcome to the Riddle Game!")
+    print("Here's your riddle:")
+    
+    riddle = "I speak without a mouth and hear without ears. I have no body, but I come alive with wind. What am I?"
+    answer = "echo"
+    
+    user_answer = input("Your answer: ").strip().lower()
+    
+    if user_answer == answer:
+        print("Correct! Well done!")
+    else:
+        print(f"Sorry, that's not correct. The answer is '{answer}'.")
+
+riddle_game()
